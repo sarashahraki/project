@@ -1,0 +1,120 @@
+:root{
+    background: #121212;
+    padding:  2rem 5rem;
+
+}
+
+body {
+    font-family: IRANSans !important;
+    font-weight: 300;
+    direction: rtl;
+    background-color: #121212;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+/*header*/
+
+
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    display: flex;
+   justify-content: right;
+   
+}
+.header_logo img{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 2rem;
+    height: 2rem;
+    
+
+}
+
+.header_nav{
+    display: flex;
+    float: right;
+    gap: 3rem;
+}
+
+.header_nav > li{
+list-style: none;
+justify-content: flex-start;
+}
+
+.header_nav li a{
+    text-decoration: none;
+    color: #FFFFFF;
+   
+}
+
+.header_nav-search{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 30rem;
+    padding-top: 1rem;
+}
+
+.header_nav-search input{
+    background-color: #121212;
+    color: #FFFFFF33;
+    border: none; 
+    border-bottom: 2px solid #FFFFFF33;
+}
+
+.header_nav-search img{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+/*-------------------page_intro_right*/
+
+.page_intro{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 25rem;
+    gap: 4rem;
+    padding: 3rem  5rem;
+    
+  
+}
+.page_intro_right{
+   
+    margin: 0;
+    border: 1px solid #FFFFFF05;
+    background-color:#FFFFFF05,
+}
+
+h3{
+    color: #454545; 
+ 
+}
+h1{
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 3rem;
+   
+}
+
+.page_intro-para{
+    color: #BABABA;
+    text-align: justify;
+}
+
+/*-----------------page_intro_left*/
+
+.page_intro_left{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
