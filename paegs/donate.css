@@ -37,15 +37,12 @@ ul{
     padding: 1rem 4rem  0  0;
     width: 2rem;
     height: 2rem;
-    
-
 }
 
 .header_nav{
     display: flex;
     gap: 3rem;
 }
-
 .header_nav > li{
 list-style: none;
 justify-content: flex-start;
@@ -54,29 +51,23 @@ font-weight: 400;
 line-height: 21.91px;
 text-align: left;
 }
-
 .header_nav li a{
     text-decoration: none;
-    color: #FFFFFF;
-   
+    color: #FFFFFF;  
 }
-
 .header_nav-search{
     display: flex;
     justify-content: flex-start;
     padding-right: 30rem;
     padding-top: 0; 
-    font-family: '';
-    
+    font-family: 'yekan';  
 }
-
 .header_nav-search div{
     border-bottom: 1px solid #FFFFFF33;
     margin-top: 0;
     padding-bottom: 0;
     height: 30px;
 }
-
 .header_nav-search input{
     background-color: #121212;
     color: #FFFFFF33;
@@ -84,103 +75,63 @@ text-align: left;
     margin: 0;
     padding: 0;  
 }
-
 .header_nav-search img{
     width: 1.3rem;
     height: 1.3rem;  
 }
-/*---------------------list_video*/
-.list_video{
-    padding: 3rem 0;
-}
-.list_titly h1{
-    font-family:  'yekan';
-    padding: 0 3.3rem  0  40rem;
-    margin: 0;
-    text-align: right;
+/*-------------------------protection*/
+.protection h1{
+    font-size: 2rem;
     color: #FFFFFF;
-    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 5rem;
 }
-.list_video_mnu--u{
-    display: flex;
-    justify-content: left;
-    gap: 3rem;
-    padding: 0 7rem;
+.pagination_titly{
+    width: 25rem;
+    height: 5rem;
+    margin-right: 31rem;
 }
-.list_video_mnu--u > li{
-    list-style: none;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21.91px;
-    text-align: left;
-}
-.list_video_mnu--u li a{
-    text-decoration: none;
-    color: #989898; 
-}
-
-/*-------------------------post_cards--*/
-.post_cards{
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    gap: 1rem 4rem;
-    padding: 0;
-    margin-right: 8rem;
-}
-.post_card_pic img{
-    width: 22rem;
-    height: 16rem;
-    object-fit: cover;
-    border-radius: 1rem;
-}
-
-.post_card_pic p{
-    color: #FFFFFF;
-    font-size: 1.2rem;
-    font-family:  'yekan';
-    padding: 0;
-    margin: 0;
-}
-
-.post_card_guest--para{
-    color: #575757;
-    font-size: 1rem;
-    font-family: 'yekan';
-    padding: 0;
-    margin-bottom: 1rem;
-    position: absolute;
-}
-
-.post_card_time{
+.pagination_titly p{
+    text-align: center;
     color: #A1A1A1;
-    font-size: 0.5;
-    font-family: 'yekan';
-    text-align: left;
-    position: relative;
+    font-size: 0.90rem;
 }
 
-.pagination{
-    padding-top: 20px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+.protection_forms{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
     justify-content: center;
+    margin-right: 4rem;
 }
-
-.pagination_item{
-    width: 2rem;
-    height: 2rem;
-    font-size: 0.8rem;
-    margin: 0 4px;
-    display: flex;
-    justify-content: center;
-
-    align-items: center;
+.pagination_item h2{
+    text-align: center;
+    margin-left:3rem ;
     color: #FFFFFF;
-    padding: 2rem 0;
 }
 
+.pagination_form input{
+    width: 20rem;
+    height: 4rem;
+    margin: 1rem;
+    color: #FFFFFF33;
+    background-color: #1A1A1A;
+    border-radius: 0.5rem;
+    border: none;
+    padding-right: 1rem;
+}
 
+.the_payment button{
+    margin: 4rem 33rem;
+    width: 4rem;
+    height: 3rem;
+    background-color: #0A0A0A;
+    color: white;
+    border: none;
+    text-align: center;
+    font-family: 'yekan';  
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
 /*----------------------footer*/
 .footer_content{
     display: flex;
@@ -256,5 +207,4 @@ text-align: left;
     color: #3A3A3A;
     font-family: 'IRANSans' !important;
     font-size: 0.8rem;
-
 }
