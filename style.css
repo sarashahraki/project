@@ -232,6 +232,7 @@ h1{
     float: right;
     font-weight: 400;
     font-size: 18px; 
+    position: absolute;
 }
 .new_post_time{
     color: #A1A1A1;
@@ -239,7 +240,8 @@ h1{
     float: left;
     color: #777;
     font-size: 14px;
-    padding: 1rem;  
+    padding: 0;  
+    position: relative;
 }
 /*----------------------------intro_lis3--*/
 .epizods h2{

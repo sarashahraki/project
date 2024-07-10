@@ -1,0 +1,234 @@
+:root{
+    background: #121212;
+    padding:  4rem 4rem 4rem 4rem;
+
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url('BYekan.eot');
+    src: local('b Yekan'), url('BYekan.woff') format('woff'), url('BYekan.ttf') format('truetype'), url('BYekan.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+body {
+    font-family: 'IRANSans' !important;
+    font-weight: 300;
+    direction: rtl;
+    background-color: #121212;
+}
+
+ul{
+    list-style: none;
+}
+/*-------------------------header*/
+
+.header{
+    display: flex;
+    gap: 0;
+    width: 100%;
+    height: 50px;
+   justify-content: right;
+   
+}
+.header_logo img{
+    display: flex;
+    padding: 1rem 4rem  0  0;
+    width: 2rem;
+    height: 2rem;
+    
+
+}
+
+.header_nav{
+    display: flex;
+    gap: 3rem;
+}
+
+.header_nav > li{
+list-style: none;
+justify-content: flex-start;
+font-size: 14px;
+font-weight: 400;
+line-height: 21.91px;
+text-align: left;
+}
+
+.header_nav li a{
+    text-decoration: none;
+    color: #FFFFFF;
+   
+}
+
+.header_nav-search{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 30rem;
+    padding-top: 0; 
+    font-family: '';
+    
+}
+
+.header_nav-search div{
+    border-bottom: 1px solid #FFFFFF33;
+    margin-top: 0;
+    padding-bottom: 0;
+    height: 30px;
+}
+
+.header_nav-search input{
+    background-color: #121212;
+    color: #FFFFFF33;
+    border: none;   
+    margin: 0;
+    padding: 0;  
+}
+
+.header_nav-search img{
+    width: 1.3rem;
+    height: 1.3rem;  
+}
+/*----------------list_titly----*/
+.list_titly h1{
+    font-family:  'yekan';
+    padding: 2rem 3.3rem  3rem  40rem;
+    margin: 0;
+    text-align: right;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+/*-------------------search_video*/
+.search_video{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 1rem 4rem;
+    padding: 0;
+    margin-right: 8rem;
+}
+.search_video_pic img{
+    width: 22rem;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.search_video_pic p{
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-family:  'yekan';
+    padding: 0;
+    margin: 0;
+}
+.search_video_guest--para{
+    color: #575757;
+    font-size: 1rem;
+    font-family: 'yekan';
+    padding: 0;
+    margin-bottom: 1rem;
+    position: absolute;
+}
+.search_video_time{
+    color: #A1A1A1;
+    font-size: 0.5;
+    font-family: 'yekan';
+    text-align: left;
+    position: relative;
+}
+
+.pagination{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.pagination_item{
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    color: #FFFFFF;
+    padding: 2rem 0;
+}
+/*----------------------footer*/
+.footer_content{
+    display: flex;
+    border-top: 3px solid #3C3C3C;
+    padding: 0;   
+}
+.footer_content--info{
+    width: 25rem;
+    height: 13rem;
+    opacity: 0px;
+   padding: 0 2rem;
+   position: relative;
+}
+.footer_content--info img{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    padding-top: 2rem;
+    position: absolute;
+}
+.footer_content--info h3{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 0 0 0 ;
+    font-size: 2rem;
+    top: 6rem;
+}
+.footer_content--info--para{
+    width: 25rem;
+    height: auto;
+    color: #BABABA;
+    text-align: justify;
+    font-family: 'yekan' !important;
+}
+
+.footer_content--info--link--titly{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    padding-right: 8rem;
+}
+
+.footer_content--info--link ul li{
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 0.5rem 5rem;
+    font-family: 'IRANSans' !important;
+}
+
+.footer_author{
+    padding: 1rem 3rem;
+}
+
+.page_intro--social--icon h3{
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.page_intro--social--icon--imag img{
+    padding: 2rem 1rem;
+}
+.footer_Network h3{
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 0;
+}
+.footer_Network--imag img{
+    padding: 0 1.6rem;
+}
+
+.Next_footer {
+    text-align: center;
+    color: #3A3A3A;
+    font-family: 'IRANSans' !important;
+    font-size: 0.8rem;
+}
