@@ -316,9 +316,13 @@ h1{
 .page_intro--protection--icon{
     display: flex;
     justify-self: start;
-    gap: 3rem;
-    padding-right: 3rem;
-    object-fit: cover;
+    gap: 4rem;
+    padding-right: 4rem;
+}
+.page_intro--protection--icon img{
+    width: 5rem;
+    height: 3rem;
+    opacity: 1;
 }
 /*----------------------------short video box--*/
 .short_video_boxs h2{
