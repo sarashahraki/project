@@ -345,23 +345,22 @@ text-align: left;
     color: #575757;
     font-family: 'yekan';
 }
-
-.more_imag{
-    
-    position: absolute;
-}
-.more_imag img{
-    padding: 0 20rem 13rem 0;
-}
+/* more */
 .more{
-    position: relative;
+    position: absolute;
 }
 .more p{
     color: #FFFFFF;
     font-family: 'yekan';
     text-align: center;
-    padding: 9rem 0 0 10rem;
-    
+    padding: 9rem 16rem 0 0;
+
+}
+.icon_more{
+    position: relative;
+}
+.icon_more img{
+    padding: 10.5rem 19rem 0 0;
 }
 
 
