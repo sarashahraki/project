@@ -1,6 +1,6 @@
 :root{
     background: #121212;
-    padding:  4rem 4rem 4rem 4rem;
+    padding:  4rem 4rem ;
 
 }
 
@@ -79,58 +79,56 @@ text-align: left;
     width: 1.3rem;
     height: 1.3rem;  
 }
-/*-------------------------protection*/
-.protection h1{
-    font-size: 2rem;
+/*---------------from titly----*/
+.cooperate{
     color: #FFFFFF;
     text-align: center;
-    padding-top: 5rem;
+    font-size: 1rem;
+    padding-top: 3rem;
+    
 }
-.pagination_titly{
+.cooperate-titly{
     width: 25rem;
     height: 5rem;
     margin-right: 31rem;
-
 }
-.pagination_titly p{
-    text-align: center;
+.cooperate-titly p{
     color: #A1A1A1;
     font-size: 0.90rem;
 }
-.protection_forms{
+.forms{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 20rem 20rem;
     justify-content: center;
-    margin-right: 4rem;
+    gap: 1rem 2rem;
+    padding: 0;
+    margin-right: 1rem;
+
 }
-.pagination_item h2{
-    text-align: center;
-    margin-left:3rem ;
-    color: #FFFFFF;
-}
-.pagination_form input{
+.forms input{
     width: 20rem;
-    height: 4rem;
-    margin: 1rem;
-    color: #FFFFFF33;
-    background-color: #1A1A1A;
+    height: 3rem;
     border-radius: 0.5rem;
+    background-color: #1A1A1A;
+    color: #FFFFFF33;
     border: none;
-    padding-right: 1rem;
+    padding-right: 0.5rem;
+
 }
 
-.the_payment button{
-    margin: 4rem 34rem;
-    width: 4rem;
+.form_send button{
+    width: 5rem;
     height: 3rem;
     background-color: #0A0A0A;
-    color: white;
+    color: #FFFFFF;
     border: none;
-    text-align: center;
-    font-family: 'yekan';  
-    font-size: 1rem;
+    font-family: 'yekan';
     border-radius: 0.5rem;
+    margin: 2rem 38rem 5rem 0;
 }
+
+
+
 /*----------------------footer*/
 .footer_content{
     display: flex;
