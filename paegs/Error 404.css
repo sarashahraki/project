@@ -32,12 +32,14 @@ ul{
    justify-content: right;
    
 }
+.hamburger{
+    position: fixed;
+  }
 .header_logo img{
     display: flex;
     padding: 1rem 4rem  0  0;
     width: 2rem;
     height: 2rem;
-    
 
 }
 
@@ -124,7 +126,7 @@ text-align: left;
 .footer_content--info h3{
     color: #FFFFFF;
     text-align: center;
-    padding: 0 0 0 0 ;
+    padding: 0 0;
     font-size: 2rem;
     top: 6rem;
 }
@@ -177,3 +179,37 @@ text-align: left;
     font-family: 'IRANSans' !important;
     font-size: 0.8rem;
 }
+
+@media screen and (max-width:1450px){
+    .header_nav-search{
+    padding-right: 20rem;
+}
+}
+
+@media screen and (max-width:1260px){
+    .header_nav-search{
+        padding-right: 3rem;
+    }
+    .page_intro--social--icon--imag img{
+        padding: 0;
+    }
+    .footer_Network--imag img{
+        padding: 0;
+    }
+    .footer_content--info--link--titly{
+        padding: 0;
+    }
+    .footer_content--info--link ul li{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:1000px){ 
+    .header_nav{
+        display: none;
+    }
+    .header_nav-search{
+        padding-right: 25rem;
+    }
+}
+    

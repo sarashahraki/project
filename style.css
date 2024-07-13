@@ -35,7 +35,7 @@ ul{
 }
 .header_logo img{
     display: flex;
-    padding: 1rem 4rem  0  0;
+    padding: 1rem 6rem  0  0;
     width: 2rem;
     height: 2rem;
     
@@ -52,7 +52,7 @@ list-style: none;
 justify-content: flex-start;
 font-size: 14px;
 font-weight: 400;
-line-height: 21.91px;
+line-height: 21px;
 text-align: left;
 }
 
@@ -65,7 +65,7 @@ text-align: left;
 .header_nav-search{
     display: flex;
     justify-content: flex-start;
-    padding-right: 30rem;
+    padding-right: 26rem;
     padding-top: 0; 
     
 }
@@ -74,20 +74,22 @@ text-align: left;
     border-bottom: 1px solid #FFFFFF33;
     margin-top: 0;
     padding-bottom: 0;
-    height: 30px;
+    height: 35px;
+    width: 14rem;
 }
 
 .header_nav-search input{
     background-color: #121212;
     color: #FFFFFF33;
-    border: none;   
+    border: none;  
+    font-size: 1rem; 
     margin: 0;
     padding: 0;  
 }
 
 .header_nav-search img{
-    width: 1.3rem;
-    height: 1.3rem;  
+    width: 1.5rem;
+    height: 1.5rem;  
 }
 
 /*-------------------page_intro_right*/
@@ -96,7 +98,7 @@ text-align: left;
 .page_intro{
     display: flex;
     gap: 0;
-    padding: 2rem  5rem 0 5rem;
+    padding: 2rem  5.8rem 0 5rem;
 }
 
 .page_intro_right{
@@ -106,28 +108,30 @@ text-align: left;
     background: linear-gradient(226.94deg, rgba(255, 255, 255, 0.02) 0.98%, rgba(255, 255, 255, 0) 98.71%);
     border-radius: 1rem;
     width: 25rem;
-    height: 27rem;
-    padding-left: 2rem;
-    padding-right: 2rem;   
+    height: 23rem;
+    
+    padding: 1rem 2rem; 
 }
 
 h3{
     padding-right: 2rem;
     color: #454545; 
-    font-family: 'yekan' !important; 
+    font-family: 'yekan'; 
+    margin: 0;
 }
 h1{
     color: #FFFFFF;
     padding-right: 2rem;
     margin: 0;
     font-size: 3.2rem;
-    font-family: 'yekan' !important;
+    font-family: 'yekan';
 }
 
 .page_intro-para{
     color: #BABABA;
     text-align: justify;
-    font-family: 'yekan' !important;
+    font-family: 'yekan';
+    padding-right: 2rem;
 }
 
 /*-----------------page_intro_left*/
@@ -140,18 +144,18 @@ h1{
 .page_intro_left--img img{
   padding-left: 0;
   gap: 0;
-  width: 50rem;
+  width: 45rem;
 }
 
 /*-----------------------------------page_intro--social*/
 .page_intro--social{
-    width: 40rem;
+    width: 55rem;
     height: 10rem;
     border: 1px solid;
     border-image-source: linear-gradient(225.53deg, rgba(255, 255, 255, 0.2) 1.7%, rgba(0, 0, 0, 0) 96.61%);
     background: linear-gradient(226.94deg, rgba(255, 255, 255, 0.02) 0.98%, rgba(255, 255, 255, 0) 98.71%);
     border-radius: 1rem;
-    margin-right: 28rem;
+    margin-right: 16rem;
 }
 
 .page_intro--social-titly{
@@ -162,7 +166,7 @@ h1{
 .page_intro--social-titly h2{
     color: #FFFFFF;
     font-size: 1.5rem;
-    font-family: 'yekan' !important;
+    font-family: 'yekan';
 }
 
 .page_intro--social--icon{
@@ -170,8 +174,8 @@ h1{
     height: 3rem;
    display: flex;
    justify-self: start;
-   gap: 3rem;
-   padding-right: 3rem;
+   gap: 5rem;
+   padding-right: 6rem;
 }
 
 /*------------------------page_intro--lain-->*/
@@ -179,8 +183,8 @@ h1{
 .page_intro--list-titly h2{
     color: #FFFFFF;
     font-size: 1.5rem;
-    font-family: 'yekan' !important;
-    padding: 0;
+    font-family: 'yekan';
+    padding: 4rem 0 0 0;
     text-align: center;
 }
 
@@ -188,16 +192,16 @@ h1{
     display: flex;
     justify-content: center;
     gap: 2rem;
-    padding: 2rem 4rem 2rem 4rem;
+    padding: 2rem 5rem 2rem 5rem;
   
 }
 .new_post_card{
     border: 1px solid;
-    border-image-source: linear-gradient(225.53deg, rgba(255, 255, 255, 0.2) 1.7%, rgba(0, 0, 0, 0) 96.61%);
+   /* border-image-source: linear-gradient(225.53deg, rgba(255, 255, 255, 0.2) 1.7%, rgba(0, 0, 0, 0) 96.61%);  */
     background: linear-gradient(226.94deg, rgba(255, 255, 255, 0.02) 0.98%, rgba(255, 255, 255, 0) 98.71%);
     border-radius: 1rem;
-    width: 16rem;
-    height: auto;
+    width: 15rem;
+    height: 24rem;
 }
 .new_post_pic{
     padding: 0;
@@ -208,11 +212,15 @@ h1{
     gap: 4rem;
   
 }
+.new_post_pic img{
+    width: 17rem;
+}
 .new_post_card_icon{
     padding: 3rem;
     position: absolute;
 }
 .new_post_card_icon img{
+    width: 8rem;
     padding: 1rem;
     border-radius: 50%;
 }
@@ -222,8 +230,9 @@ h1{
 .new_post_body p{
     color: #FFFFFF;
     font-size: 1.5rem;
-    font-family: 'yekan' !important;
-    padding: 1rem;
+    font-family: 'yekan'!important;
+    
+    padding: 1rem ;
     margin: 0;    
 }
 .new_post_guest{
@@ -249,13 +258,14 @@ h1{
     font-size: 1.5rem;
     font-family: 'yekan' !important;
     text-align: center;
+    padding: 3rem ;
 }
 .epizod_grid{
     display: grid;
     grid-template-columns: 30rem 30rem;
     justify-content: center;
     margin:  0;
-    gap: 1rem;
+    gap: 3rem ;
 }
 .epizod1{
     display: flex;
@@ -273,38 +283,39 @@ h1{
 .right-epizod h4{
     color: #FFFFFF;
     font-size: 1rem;
-    padding: 1rem 1rem;
-    margin: 2rem 1rem;
+    padding: 1rem 1rem 0 0;
+    margin: 2rem 0;
 }
 .right-epizod img{
-    width: 8rem;
+    width: 9rem;
     height: 8rem;
-   margin:0.5rem 0;
+   margin:0.7rem 0;
+   
 }
 .left-epizod h4 {
     color: #FFFFFF;
     font-size: 1rem;
-    padding: 0 1rem;
+    padding: 0;
 }
 .left-epizod p{
     color: #575757;
 }
 .view h3{
     color: #FFFFFF;
-    font-size: 1rem;
-    font-family: 'yekan' !important;
+    font-size: 0.8rem;
+    font-family: 'yekan';
     text-align: center;
-    padding: 0;
+    padding: 1rem 0 3rem 0;
 }
 /*----------------------------page-intro--protection--*/
 .page_intro--Protection{
-    width: 40rem;
+    width: 55rem;
     height: 10rem;
     border: 1px solid;
     border-image-source: linear-gradient(225.53deg, rgba(255, 255, 255, 0.2) 1.7%, rgba(0, 0, 0, 0) 96.61%);
     background: linear-gradient(226.94deg, rgba(255, 255, 255, 0.02) 0.98%, rgba(255, 255, 255, 0) 98.71%);
     border-radius: 1rem;
-    margin-right: 28rem;
+    margin-right: 16rem;
 }
 .page_intro--protection--titly h2{
     color: #FFFFFF;
@@ -316,37 +327,37 @@ h1{
 .page_intro--protection--icon{
     display: flex;
     justify-self: start;
-    gap: 4rem;
-    padding-right: 4rem;
+    gap: 8rem;
+    padding-right: 3rem;
 }
 .page_intro--protection--icon img{
-    width: 5rem;
-    height: 3rem;
-    opacity: 1;
+    width: auto;
+    height: auto;
+    
 }
 /*----------------------------short video box--*/
 .short_video_boxs h2{
     color: #FFFFFF;
     font-size: 1.5rem;
     font-family: 'yekan' !important;
-    padding: 0;
+    padding: 4rem 0 0 0;
     text-align: center;
 }
 .short_video_box{
     display: grid;
     grid-template-columns: 30rem 30rem;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+    gap: 4rem;
+    
 }
 .short_video_box-list{
     display: flex;
     justify-content: center;
-    margin:  3rem 0 0 0;
-    gap: 1rem;
+    margin:  2rem;
+  
 }
 .short_video_box-list img{
-    height: 15rem;
+    height: 13rem;
     width: 30rem;
     padding: 0;
 }
@@ -371,7 +382,7 @@ h1{
     width: 4rem;
     height: 4rem;
     padding: 5rem;
-    margin-right: 20rem;
+    margin-right: 21rem;
 }
 .icon img:hover{
     transform: scale(1.1);
@@ -388,17 +399,17 @@ h1{
 .join_us{
     display: flex;
     gap: 0;
-    padding: 2rem ;
-    margin-right: 17rem;
+    padding: 5rem 0;
+    margin-right: 12rem;
 }
 
 .join_us_box img{
-    width: 25rem;
+    width: 31rem;
     height: 13rem;
 }
 
 .join_us_box_titly{
-    width: 25rem;
+    width: 27rem;
     height: 13rem;
     opacity: 0px;
     background: linear-gradient(226.94deg, rgba(255, 255, 255, 0.02) 0.98%, rgba(255, 255, 255, 0) 98.71%);
@@ -446,72 +457,74 @@ h1{
 
 /*----------------------footer*/
 .footer_content{
-    display: flex;
+    display: grid;
+    grid-template-columns: 23rem 15rem 50rem;
     border-top: 3px solid #3C3C3C;
-    padding: 3rem 4rem;   
+    padding: 3rem 0;   
 }
 .footer_content--info{
-    width: 25rem;
-    height: 13rem;
+    width: 23rem;
+    height: 10rem;
     opacity: 0px;
    padding: 0 2rem;
    position: relative;
 }
 .footer_content--info img{
     display: flex;
-    width: 4rem;
-    height: 4rem;
-    padding-top: 2rem;
+    width: 3rem;
+    height: 3rem;
+    padding-right: 1rem;
     position: absolute;
 }
 .footer_content--info h3{
     color: #FFFFFF;
     text-align: center;
-    padding: 0 0 0 0 ;
-    font-size: 2rem;
-    top: 6rem;
+    padding: 0;
+    font-size: 1.5rem;
+    
 }
 .footer_content--info--para{
-    width: 25rem;
+    width: 19rem;
     height: auto;
     color: #BABABA;
     text-align: justify;
     font-family: 'yekan' !important;
+    padding: 1rem;
 }
 
 .footer_content--info--link--titly{
     color: #FFFFFF;
     font-size: 2rem;
-    padding-right: 8rem;
+    padding-right: 5.5rem;
 }
 
 .footer_content--info--link ul li{
     color: #FFFFFF;
     font-size: 1rem;
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 3rem;
     font-family: 'IRANSans' !important;
 }
 
 .footer_author{
-    padding: 1rem 3rem;
-}
-
-.page_intro--social--icon h3{
-    color: #FFFFFF;
-    font-size: 1.5rem;
     padding: 0;
 }
 
+.page_intro--social-ic_titly h3{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    
+}
+
 .page_intro--social--icon--imag img{
-    padding: 2rem 1rem;
+    padding: 1rem 2rem;  
 }
 .footer_Network h3{
     color: #FFFFFF;
     font-size: 1.5rem;
-    padding: 0 3rem;
+    padding: 1rem 2rem;
 }
 .footer_Network--imag img{
-    padding: 0 1.5rem;
+    padding: 1rem 2rem;
 }
 
 .Next_footer {
@@ -519,7 +532,7 @@ h1{
     color: #3A3A3A;
     font-family: 'IRANSans' !important;
     font-size: 0.8rem;
-
+    padding: 0;
 }
 
 
